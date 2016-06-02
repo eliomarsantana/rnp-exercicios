@@ -34,7 +34,7 @@ public class ContaEspacoEVogal {
         }
         
         System.out.println("Quantidade vogais: "+ contVogal);
-        
-        System.out.println("Media de vogais: "+ (contVogal*(tamanho/100))+"%");
+        double media = contVogal*(tamanho*0.01);
+        System.out.println("Media de vogais: "+ media+"%");
     }
 }
